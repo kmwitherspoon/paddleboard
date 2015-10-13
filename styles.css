@@ -366,6 +366,9 @@ div .col-4:hover {
   float: left;
 }
 
+div .col-4 p:hover {
+  color: white;
+}
 
 .post-images p {
   position: absolute;
@@ -378,12 +381,11 @@ div .col-4:hover {
   padding: 0;
 }
 
-
 footer {
   background-color: #063452;
   clear: both;
   color: #91989D;
-  height: 60px;
+  height: 100px;
   line-height: 0;
   margin-top: 0;
   padding-top: 20px;
@@ -393,6 +395,11 @@ footer {
 .copyright {
   float: left;
   padding-left: 12%;
+}
+
+.ironyard-logo {
+      margin: 0;
+      padding-left: 25%;
 }
 
 .footer-nav {
@@ -409,4 +416,364 @@ footer {
 
 .footer-nav li a {
   color: #91989D ;
+}
+
+@media screen and (max-width: 948px) {
+  footer {
+    height: 150px;
+  }
+
+  .footer-nav {
+    padding-right: 28%;
+  }
+
+  .copyright {
+    padding-left: 35%;
+  }
+
+  .ironyard-logo {
+    padding-left: 50%;
+    }
+  }
+
+@media screen and (max-width: 917px) and (min-width: 683px){
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+  .content {
+    width: 40%;
+  }
+  .sidebar {
+    width: 30%;
+  }
+  nav p .copyright {
+    padding-left: 30%;
+  }
+  nav ul .footer-nav {
+    padding-right: 30%;
+  }
+
+  .copyright {
+    padding-left: 30%;
+  }
+
+  .footer-nav {
+    padding-right: 30%;
+  }
+}
+
+@media screen and (max-width: 682px) and (min-width:600px){
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+.header {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+  .blog {
+    display: none;
+  }
+
+.header-nav {
+  width: 80%;
+}
+
+.header-nav ul {
+  text-align: center;
+}
+
+.header-nav-list {
+  padding-right: 0;
+  width: 60%;
+}
+
+.header h1 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+  .content {
+    width: 100%;
+  }
+
+  .sidebar {
+    padding-left: 12%;
+    width: 80%;
+  }
+
+  .main-content {
+    width: 80%;
+  }
+
+  .col-2 p {
+    padding-left: 0;
+  }
+
+  div .author-name {
+    padding-left: 20%;
+    width: 100%;
+  }
+
+  div .social-media {
+    margin-left: 40%;
+  }
+
+  div .sidebar-img {
+    margin-left: 240px;
+  }
+
+  div .sidebar-img:hover {
+    margin-left: 220px;
+  }
+
+  div .surf-ad {
+    margin-left: 120px;
+    margin-bottom: 0;
+  }
+
+  div .surf-ad:hover {
+    margin-left: 120px;
+    margin-bottom: 0;
+  }
+
+  div .ad {
+    margin-left: 55%;
+  }
+
+  div .col-4 {
+    background: linear-gradient( rgba(45, 124, 185, 0.6), rgba(45, 124, 185, 0.6) ), url(https://images.unsplash.com/photo-1427722483643-7932657d348e?q=80&fm=jpg&s=77f9560dcd70036b8778e94532c3c991);
+    background-size: cover;
+    /* width: 25%; */
+    height: 220px;
+    /* margin: 0; */
+    padding: 0;
+    position: relative;
+    /* float: left; */
+    /* margin-left: 12%; */
+    /* padding: 10px; */
+    margin: 20px 12%;
+    width: 75%;
+  }
+
+  div .col-4:hover {
+    background: linear-gradient( rgba(45, 124, 185, 0.6), rgba(45, 124, 185, 0.6) ), url(https://images.unsplash.com/photo-1427722483643-7932657d348e?q=80&fm=jpg&s=77f9560dcd70036b8778e94532c3c991);
+    background-size: cover;
+    /* width: 25%; */
+    height: 220px;
+    /* margin: 0; */
+    padding: 0;
+    position: relative;
+    /* float: left; */
+    /* margin-left: 12%; */
+    /* padding: 10px; */
+    margin: 20px 12%;
+    width: 75%;
+  }
+
+footer {
+  padding-bottom: 20px;
+}
+  nav {
+    width: 80%;
+    margin: 0 12%;
+  }
+
+  .copyright {
+    float: left;
+    padding-left: 20%;
+    width: 100%;
+  }
+
+  .footer-nav {
+    list-style: none;
+    padding-right: 10%;
+    text-decoration: none;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+.header {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+  .blog {
+    display: none;
+  }
+
+.header-nav {
+  width: 80%;
+}
+
+.header-nav ul {
+  text-align: center;
+}
+
+.header-nav-list {
+  padding-right: 0;
+  width: 60%;
+}
+
+.header h1 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+  .content {
+    width: 100%;
+  }
+
+  .sidebar {
+    padding-left: 12%;
+    width: 80%;
+  }
+
+  .main-content {
+    width: 80%;
+  }
+
+  .col-2 p {
+    padding-left: 0;
+  }
+
+  div .author-name {
+    padding-left: 20%;
+    width: 100%;
+  }
+
+  div .social-media {
+    margin-left: 40%;
+  }
+
+  div .sidebar-img {
+    margin-left: 200px;
+  }
+
+  div .sidebar-img:hover {
+    margin-left: 200px;
+  }
+
+  div .surf-ad {
+    margin-left: 100px;
+    margin-bottom: 0;
+  }
+
+  div .surf-ad:hover {
+    margin-left: 100px;
+    margin-bottom: 0;
+  }
+
+  div .ad {
+    margin-left: 90%;
+    width: 100%;
+  }
+
+  div .col-4 {
+    background: linear-gradient( rgba(45, 124, 185, 0.6), rgba(45, 124, 185, 0.6) ), url(https://images.unsplash.com/photo-1427722483643-7932657d348e?q=80&fm=jpg&s=77f9560dcd70036b8778e94532c3c991);
+    background-size: cover;
+    /* width: 25%; */
+    height: 220px;
+    /* margin: 0; */
+    padding: 0;
+    position: relative;
+    /* float: left; */
+    /* margin-left: 12%; */
+    /* padding: 10px; */
+    margin: 20px 12%;
+    width: 75%;
+  }
+
+  div .col-4:hover {
+    background: linear-gradient( rgba(45, 124, 185, 0.6), rgba(45, 124, 185, 0.6) ), url(https://images.unsplash.com/photo-1427722483643-7932657d348e?q=80&fm=jpg&s=77f9560dcd70036b8778e94532c3c991);
+    background-size: cover;
+    /* width: 25%; */
+    height: 220px;
+    /* margin: 0; */
+    padding: 0;
+    position: relative;
+    /* float: left; */
+    /* margin-left: 12%; */
+    /* padding: 10px; */
+    margin: 20px 12%;
+    width: 75%;
+  }
+
+footer {
+  padding-bottom: 20px;
+}
+  nav {
+    width: 80%;
+    margin: 0 12%;
+  }
+
+  .copyright {
+    float: left;
+    padding-left: 10%;
+    width: 100%;
+  }
+
+  .footer-nav {
+    list-style: none;
+    padding-right: 10%;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .content img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  nav {
+    width: 100%;
+    margin: 0;
+  }
+
+  .footer-nav {
+    padding-right: 0%;
+  }
+
+  div .sidebar-img {
+    margin-left: 160px;
+}
+
+div .surf-ad {
+    margin-left: 70px;
+    margin-bottom: 0;
+}
+
+div .surf-ad:hover {
+    margin-left: 70px;
+    margin-bottom: 0;
+}
+
+.content img {
+  width: 100%;
+}
 }
